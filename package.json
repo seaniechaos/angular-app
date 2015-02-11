@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/seaniechaos/angular-app/issues"
   },
-  "homepage": "https://github.com/seaniechaos/angular-app"
+  "homepage": "https://github.com/seaniechaos/angular-app",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
