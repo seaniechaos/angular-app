@@ -1,0 +1,17 @@
+{
+  "name": "angular-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/seaniechaos/angular-app",
+  "authors": [
+    "Sean Ring"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
