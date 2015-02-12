@@ -3,6 +3,7 @@
   <title>Tinder</title>
 
   <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.12/angular.min.js"></script>
   <script src="main.min.js"></script>
 
@@ -20,7 +21,9 @@
 
     <div class="row">
 
-      <div class="col-sm-4 col-md-4" ng-repeat="person in people">
+      <div class="col-sm-2"></div>
+
+      <div class="col-sm-8 col-md-8" ng-repeat="person in people">
         <div class="thumbnail">
           <img ng-src="{{person.avatar}}">
           <div class="caption">
@@ -30,6 +33,8 @@
           </div>
         </div>
       </div>
+
+      <div class="col-sm-2"></div>
 
     </div>
   </div>
