@@ -1,7 +1,8 @@
-$color: #ff00ff;
+$color: #ffffff;
 
 body{
-  p{
+  p.lead{
+
     font-weight: bold;
     color: $color;
   }
